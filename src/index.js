@@ -42,6 +42,7 @@
 // const age = 28;
 
 // //じゅうらいのほうほう
+
 // const message1 = "私の名前は" + name + "です。年齢は" + age + "です。";
 // console.log(message1);
 
@@ -71,6 +72,7 @@
 //   age : 28,
 // };
 // const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+
 // console.log(message1);
 
 // const {name, age} = myProfile;
@@ -99,16 +101,42 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-arr6[0] = 100;
-console.log(arr6);
+// const arr6 = [...arr4];
+// arr6[0] = 100;
+// console.log(arr6);
 
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
 
 // const arr8 = arr4;
+
 // arr8[0] = 100;
+
 // console.log(arr8);
+
+//
+// const nameArr = ["田中", "山田", "じゃけぇ"];
+// const nameArr2 = nameArr.map((name)=>{
+//   return name;
+// })
+// console.log(nameArr2);
+
+// nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`));
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 0;
+// })
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "じゃけぇ"){
+//     return name
+//   } else {
+//     return `${name}さん`
+//   }
+// })
+// console.log(newNameArr);
